@@ -1,11 +1,11 @@
 
-
+import New from "./New";
 
 function App() {
 
   return (
     <>
-      <h1>Hello | Diwakar Dahal</h1>
+      <New/>
     </>
   )
 }
