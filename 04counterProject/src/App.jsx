@@ -7,8 +7,6 @@ function App() {
   let [counter, setCounter] = useState(10);
   let [msg, setMsg] = useState('');
 
-
-
   const addCount = () => {
 
     setMsg('')
