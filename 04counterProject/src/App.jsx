@@ -10,6 +10,8 @@ function App() {
 
 
   const addCount = () => {
+
+    setMsg('')
     if (counter < 20) {
       counter++;
       setCounter(counter);
@@ -17,9 +19,11 @@ function App() {
     } else{
       setMsg('Maximum Limit reached')
     }
+    
   }
 
-  function subCount() {
+  const subCount = () => {
+    setMsg('')
 
     if (counter > 0) {
       counter--;
@@ -28,6 +32,7 @@ function App() {
     } else{
       setMsg('minimum limit reached')
     }
+    
   }
 
   return (
@@ -49,7 +54,7 @@ function App() {
     <br/> <br/>
       
     {msg}
-    
+
     </>
   )
 }
