@@ -7,8 +7,6 @@ import Layout from './Layout'
 import { About, Home, Contact, User, Github } from './components'
 import { githubInfoLoader } from './components/Github/Github'
 
-
-
 // const router = createBrowserRouter([
 //   {
 //     path: '/',

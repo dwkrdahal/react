@@ -1,0 +1,47 @@
+/* CustomSlider.css */
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-item {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  color: #fff;
+  font-size: 54px;
+  line-height: 59px;
+  padding: 0 19%;
+  text-transform: uppercase;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 20px;
+  color: #000;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: #412414;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(12 89 159);
+}

@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.parallax-section {
+	background-attachment: fixed !important;
+}
+
+.btn-capsul {
+	border-radius: 30px;
+}
+
+.btn-aqua {
+	background: #0297FF;
+	color: #fff;
+}
+
+.btn-aqua:hover {
+	background: #10629b;
+	color: #fff;
+}
+
+.btn-dark-blue {
+	background: #0C242E;
+	color: #fff;
+}
+
+.btn-dark-blue:hover {
+	background: #063d28;
+	color: #fff;
+}
+
+.btn-transparent-white {
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.btn-transparent-white:hover,
+.btn-transparent-white:focus {
+	background: #fff;
+	color: #0297FF
+}
+
+.relative-box {
+	position: relative
+}
+
+section {
+	float: left;
+	width: 100%;
+	padding: 80px 0;
+}
